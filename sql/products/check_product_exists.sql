@@ -1,0 +1,1 @@
+SELECT EXISTS(SELECT 1 FROM products WHERE product_id = $1);

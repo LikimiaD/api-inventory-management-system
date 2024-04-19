@@ -1,0 +1,1 @@
+SELECT EXISTS(SELECT 1 FROM orders WHERE order_id = $1);

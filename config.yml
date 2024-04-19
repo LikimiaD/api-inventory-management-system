@@ -1,0 +1,10 @@
+env: "local"
+secret_key: "admin"
+http_server:
+  address: "0.0.0.0:8080"
+database:
+  name: db_name
+  user: db_admin
+  password: db_password
+  host: database
+  port: 5432

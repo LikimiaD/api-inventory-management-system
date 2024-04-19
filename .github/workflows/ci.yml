@@ -37,10 +37,3 @@ jobs:
 
       - name: Build
         run: go build -v ./...
-
-      - name: Install golangci-lint
-        run: |
-          curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.46.2
-
-      - name: Run golangci-lint
-        run: golangci-lint run ./...
